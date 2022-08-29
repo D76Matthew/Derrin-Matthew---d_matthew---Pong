@@ -7,6 +7,7 @@ public class BallController : MonoBehaviour
 
     // Start is called before the first frame update
     public Vector3 speed;
+    public Vector3 resetPosition;
     private Rigidbody2D rig;
     void Start()
     {
@@ -15,8 +16,8 @@ public class BallController : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    public void ResetBall()
     {
-        
+        transform.position = resetPosition;
     }
 }
