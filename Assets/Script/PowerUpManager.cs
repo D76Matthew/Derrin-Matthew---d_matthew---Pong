@@ -30,6 +30,7 @@ public class PowerUpManager : MonoBehaviour
         {
             GenerateRandomPU();
             timer -= spawnInterval;
+            
         }
     }
 
@@ -67,7 +68,6 @@ public class PowerUpManager : MonoBehaviour
     {
         powerUpList.Remove(powerUp);
         Destroy(powerUp);
-
     }
 
     public void RemoveAllPU()
