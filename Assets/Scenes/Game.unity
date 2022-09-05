@@ -1158,7 +1158,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ball: {fileID: 494749211}
-  magnitude: 0.5
+  magnitude: 2
   manager: {fileID: 1344824743}
 --- !u!212 &1395671353
 SpriteRenderer:
