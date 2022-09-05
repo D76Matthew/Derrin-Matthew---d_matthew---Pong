@@ -22,7 +22,7 @@ public class PaddleController : MonoBehaviour
         Vector2 movement = GetInput();
         // object movement from input
         MoveObject(movement);
-        Debug.Log("speed = " + speed);
+        //Debug.Log("speed = " + speed);
     }
     private Vector2 GetInput()
     {
