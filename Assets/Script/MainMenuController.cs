@@ -12,10 +12,15 @@ public class MainMenuController : MonoBehaviour
     }
     public void OpenAuthor()
     {
+        SceneManager.LoadScene("Credits");
         Debug.Log("Created by D_Matthew");
     }
     public void QuitGame()
     {
         Application.Quit();
+    }
+    public void MainMenu()
+    {
+        SceneManager.LoadScene("Main Menu");
     }
 }
